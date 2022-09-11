@@ -71,7 +71,7 @@ The following dependencies and modules(python) are required, to run this locally
 ## Run Locally
 - **Clone the GitHub repository**
 ```python
-$ git clone git@github.com:prabhav5112/sign-language-detection.git
+$ git clone git@github.com:prabhav5112/sign-speak.git
 ```
 
 - **Move to the Project Directory**
