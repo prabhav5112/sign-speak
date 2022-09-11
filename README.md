@@ -76,7 +76,7 @@ $ git clone git@github.com:prabhav5112/sign-speak.git
 
 - **Move to the Project Directory**
 ```python
-$ cd sign-language-detection
+$ cd sign-speak
 ```
 
 - **Create a Virtual Environment (Optional)**
