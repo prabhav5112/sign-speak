@@ -28,24 +28,22 @@ for Customer Support, virtual meetings etc.
 ## Hand Detection
 The crux of this solution lies in identifying the presence of a hand in the video feed/image. This is done using various modules like OpenCV, cvzone and mediapipe. 
 
-## Detection Output
+## Home Page
+![Home Page](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/Home.png)
+## FAQs
+![FAQs](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/FAQs.png)
+## Detection of a character/digit in an image 
+![Detection of a character/digit in an image](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/ImgPredict.png)
+## Character/digit recognised 
+![Character/digit recognised](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/PredictAnswer.png)
+## Detection Output 1 
+![Detection Output 1](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/A.png)
+## Detection Output 2
+![Detection Output 2](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/B.png)
+## A single frame from a video
 <p align="center">
   <img src="https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/A.png" alt="animated" />
 </p>
-<br/>
-<h3 align="center">A single frame from a video </h3>
-
-![Home Page](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/Home.png)
-
-![FAQs](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/FAQs.png)
-
-![Detection of a character/digit in an image](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/ImgPredict.png)
-
-![Character/digit recognised](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/PredictAnswer.png)
-
-![Detection Output 1](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/A.png)
-
-![Detection Output 2](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/B.png)
 
 
 
