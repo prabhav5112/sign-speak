@@ -1,5 +1,5 @@
 <h1 align="center"> SignSpeak </h1>
-<h2 align="center"> A real-time sign language trasnlation tool </h2>
+<h2 align="center"> A real-time sign language translation tool </h2>
 
 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
