@@ -30,12 +30,24 @@ The crux of this solution lies in identifying the presence of a hand in the vide
 
 ## Detection Output
 <p align="center">
-  <img src="https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/A.jpeg" alt="animated" />
+  <img src="https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/A.png" alt="animated" />
 </p>
 <br/>
 <h3 align="center">A single frame from a video </h3>
 
-![Detection Output 1](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/B.jpeg)
+![Home Page](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/Home.png)
+
+![FAQs](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/FAQs.png)
+
+![Detection of a character/digit in an image](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/ImgPredict.png)
+
+![Character/digit recognised](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/PredictAnswer.png)
+
+![Detection Output 1](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/A.png)
+
+![Detection Output 2](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/B.png)
+
+
 
 
 ## Tech Stack

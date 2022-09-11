@@ -1,15 +1,38 @@
 {% extends "base.html" %}
 {%block content%}
-<div style="margin:auto; margin-top:132.8px;overflow: hidden;" id="video-feed">
 <html lang="en">
   <head>
     <title>Video Stream</title>
   </head>
   <body>
-  <!--<button id="btntoggle" onclick="togglecamera()">Turn on/off video</button> 
-  <button type="button" onclick="document.getElementById('video-feed').style.margin-top='132.8 px"">Click to get Video feed!</button> -->
-  <img src="{{ url_for('video_feed') }}"/>
+  <div style="margin:auto; margin-top:132.8px;overflow: hidden;" id="video-feed"></div>
+  <div style="position:fixed; left:-116px;top:700px; width:100%" id="contents" align="center">
+    <button id="myBtn" type="button" style=" margin:auto; z-index:1030; width:125px">
+        Turn on/off video</button>
+    </div>
+    <script>
+        let flag=0;
+        document.getElementById("myBtn").addEventListener("click", function() {
+            if(flag==0){
+                const video = document.getElementById("video-feed")
+                let container = document.createElement("div");
+                container.id = "container";
+                container.style = "width: 500px; height: 500px;margin:auto; margin-top:72.8px;overflow: hidden;";
+                container.className = "video";
+                let img = document.createElement("img")
+                img.src = "{{ url_for('video_feed')   }}";
+                img.style = "object-fit: cover";
+                container.appendChild(img);
+                video.appendChild(container);
+            flag = 1;
+            }
+            else{
+                const element =document.getElementById("container");
+                element.remove();
+                flag = 0;
+            }
+        });
+    </script>
   </body>
 </html>
-</div>
 {%endblock%}
