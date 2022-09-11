@@ -29,7 +29,7 @@ def video_feed():
 
 @app.route('/main')
 def home():
-    return render_template('home.html')
+    return render_template('home_copy.html')
     
 #@app.route('/api')
 #def api():
