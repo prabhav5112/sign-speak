@@ -1,0 +1,8 @@
+opencv-python==4.6.0.66
+flask==2.2.2
+wtforms==3.0.0
+flask_wtf==1.0.1
+tensorflow==2.9.2
+mediapipe
+cvzone
+

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{%block content%}
+<div style="margin:auto; margin-top:132.8px;overflow: hidden;" id="video-feed">
+<html lang="en">
+  <head>
+    <title>Video Stream</title>
+  </head>
+  <body>
+  <!--<button id="btntoggle" onclick="togglecamera()">Turn on/off video</button> 
+  <button type="button" onclick="document.getElementById('video-feed').style.margin-top='132.8 px"">Click to get Video feed!</button> -->
+  <img src="{{ url_for('video_feed') }}"/>
+  </body>
+</html>
+</div>
+{%endblock%}

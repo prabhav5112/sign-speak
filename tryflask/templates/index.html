@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{%block content%}
+
+        {% if flag == 0 %}    
+    <form method='POST' enctype='multipart/form-data' align="center" style="margin:auto; margin-top:132.8px; padding:20px; border:2px solid black; width:60vw">
+        <h3>Choose an image of the alphabet/digit you would like to convert</h3>
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form>
+        {% endif %}    
+        {% if flag == 1 %}
+            <img style="block;margin-top:132.8px;width:300px;height:300px;object-fit:cover" src = {{fpath}}>
+            <a class="nav-link" href="/api/answer" style="display:block;border:2px solid black; width:10vw; padding:10px;margin-top:30px;color:black">Get your prediction </a>
+        {% endif %}
+{%endblock%}
