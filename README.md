@@ -42,7 +42,7 @@ The crux of this solution lies in identifying the presence of a hand in the vide
 ![Detection Output 2](https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/B.png)
 ## A single frame from a video
 <p align="center">
-  <img src="https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/A.png" alt="animated" />
+  <img src="https://raw.githubusercontent.com/prabhav5112/sign-speak/main/media/I.jpeg" alt="animated" />
 </p>
 
 
