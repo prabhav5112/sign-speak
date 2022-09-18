@@ -107,7 +107,7 @@ $ cd sign-speak
       ```
       * In Windows
       ```python
-      $ source sgnspk\Scripts\activate
+      $ sgnspk\Scripts\activate
       ```
   
 - **Install the [requirements](requirements.txt)**
