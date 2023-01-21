@@ -8,7 +8,24 @@ import webbrowser, os
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'supersecretkey'
 
-camera = VideoCamera()
+
+def init_cam():
+    print("Initiating camera")
+    global camera
+    camera = VideoCamera()
+def delete_cam():
+    print("Deleting camera")
+    global camera
+    del camera
+    camera = None
+
+def toggle_camera():
+    if camera is None:
+        init_cam()
+    else:
+        delete_cam()
+
+camera = VideoCamera()    
 
 @app.route('/')
 def index():
@@ -34,6 +51,5 @@ def home():
 def faq():
     return render_template('faq.html')
 
-
-#app.jinja_env.globals.update(delete=delete)
-#app.jinja_env.globals.update(init_cam=init_cam)
+app.jinja_env.globals.update(delete_cam=delete_cam)
+app.jinja_env.globals.update(init_cam=init_cam)
